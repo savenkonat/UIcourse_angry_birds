@@ -1,0 +1,591 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-image: url(img/bcrg.png);
+    background-repeat: repeat;
+    font: 14px/1.14 Calibri, Helvetica, sans-serif;
+    overflow: auto;
+}
+div{
+    clear: both;
+}
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+                /*HEADER BEGIN*/
+header{
+    height: 268px;
+    margin-bottom: 20px;
+}
+.header{
+    border-radius: 6px;
+    height: 211px;
+}
+.login form{
+    float: right;
+    width: 52%;
+    padding: 16px 0;
+    text-align: right;
+}
+.login_style{
+    width:200px;
+}
+.login_button{
+    width: 64px;
+    background: #89c203;
+    font: 13px Calibri bold;
+    color: #fff;
+    border-radius: 5px;
+}
+.main_menu{
+    width: 70%;
+    height: 21%;
+    border-radius: 5px 0 0 0;
+    float: left;
+}
+.main_menu ul{
+    float: left;
+}
+.main_menu li{
+    float: left;
+    margin: 15px 20px 10px 22px;
+}
+.main_menu a{
+    color: #fff;
+    text-transform: uppercase;
+}
+.main_menu a:hover{
+    color: #89c203;
+}
+.sprite{
+    width: 30%;
+    float: right;
+    position: relative;
+    background-color: #1e1e1f;
+    padding-bottom: 15px;
+}
+.sprite ul{
+    width: 100px;
+    float: right;
+    margin-top: 18px;
+    margin-right: 20px;
+}
+.sprite li{
+    margin-left: 10px;
+    padding: 0;
+    list-style: none;
+    height: 11px;
+    display: block;
+    float: right;
+}
+.sprite a{
+    height: 15px;
+    display: block;
+}
+.folder{
+    width: 15px;
+    background: url(img/sprite.png) 0 0;
+}
+.mail{
+    width: 15px;
+    background: url(img/sprite.png) 47px -1px;
+}
+.home{
+    width: 15px;
+    background: url(img/sprite.png) 90px 0px;
+}
+.logo{
+    width: inherit;
+    height: 51%;
+    background-color: #2f2f31;
+    clear: both;
+    display: block;
+}
+.logo_box{
+    display: block;
+    clear: both;
+    width: 25%;
+    float: left;
+    margin: 44px;
+}
+.cats{
+    display: block;
+    clear: right;
+    float: right;
+    margin: 18px 10px 22px 0;
+}
+.game_menu{
+    width: inherit;
+    height: 28%;
+    background-color: #85bb03;
+    border-radius: 0 0 5px 5px;
+}
+.game_menu nav{
+    float: left;
+}
+.game_menu li{
+    float: left;
+    font: 16px Calibri bold;
+    margin: 0;
+    padding: 24px 30px 17px 25px;
+    border-right: 1px solid #98d702;
+}
+.game_menu li:first-child{
+    border-radius: 0 0 0 5px;
+}
+.game_menu a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.game_menu li:hover{
+    background: #fff;
+    first-child
+}
+.game_menu li:hover a{
+    color: #424242;
+}
+/*---------------Search*/
+.search{
+    clear: right;
+    float: right;
+    padding: 19px 21px 18px 0;
+    width: 250px;
+}
+.search_block{
+    width: 220px;
+    height: 20px;
+    z-index: 1;
+    position: relative;
+    border: none;
+}
+.search_button{
+    width: 20px;
+    height: 20px;
+    border: none;
+    z-index: 2;
+    position: relative;
+    right: 20px;
+    bottom: -6px;
+}
+/*---------------------*/
+.slider{
+    width: inherit;
+    height: 264px;
+    border-bottom: 10px solid #363638;
+    border-radius: 5px;
+    text-align: left;
+    background-image: radial-gradient(#474748, #171717);
+    margin-bottom: 20px;
+    
+}
+.slider img{
+    clear: left;
+    float: left;
+    width: 71.5%;
+}
+.slider_inf{
+    width: 28.5%;
+    float: right;
+    clear: right;
+    height: 100%;
+    overflow: auto;
+        
+}
+.slider_inf h3{
+    margin-top: 10px;
+}
+.slider_inf h3 a{
+    text-transform: uppercase;
+    color: #9ddf00;
+    margin-left: 18px;
+}
+.slider_inf h3 a:hover{
+    color: #fff;
+}
+.slider_inf h2{
+    text-transform: uppercase;
+    color: #fff;
+    font: 22px Calibri sans-serif;
+    margin:10px 0 10px 18px;
+}
+.slider_inf p{
+    color: #fff;
+    font: 14px Calibri sans-serif;
+    margin-left: 18px;
+}
+.button{
+    width: 118px;
+    height: 28px;
+    margin: 15px 0 13px 18px;
+    background: #9ddf00;
+    border-radius: 5px;
+    color: #fff;
+}
+           /*HEADER END*/
+.main{
+    width: inherit;
+}
+           /*----- left block content-------*/
+.content{
+    width: 71.5%;
+    float:left;
+}
+.name{
+    width: 100%;
+    height: 48px;
+    background-color: #2f2f31;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 7px 15px 0 #000;
+    /*position: relative;*/
+    text-transform: uppercase;
+}
+.name h3{
+    font: 18 Calibri bold;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px;
+}
+.icon{
+    border-radius: 5px;
+    background-color: #2f2f31;
+    margin-right: 0;
+    height: auto;
+    margin-bottom: 20px;
+}
+.icon_list ul{
+    list-style: none;
+}
+.icon_list li{
+    padding: 18px 15px 10px 17px;
+    width: 20%;
+    float: left;
+}
+.icon_list img{
+    height: 110px;
+    width: 110px;
+    border:3px solid #fff;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px #000;
+}
+.big_list a{
+    color: #9ddf00;
+    font: 14px Calibri bold;
+}
+.big_list a:hover{
+    color: #fff;
+}
+.small_list a{
+    color: #afafaf;
+    font: 12px Calibri sans-serif;
+}
+.all_icons a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #9ddf00;
+    font: 16px Calibri bold;
+    margin-left: 18px;
+}
+hr{
+    width: 90%;
+    background: #464646;
+    margin:10px 20px 10px 25px;
+    height: 1px;
+    border: 0;
+}
+.block_one{
+    border-radius: 5px;
+    background-color: #2f2f31;
+    margin-right: 0;
+    height: auto;
+    margin-bottom: 20px; 
+    display: table;
+}
+.block_one span{
+    float: left;
+    color: #afafaf;
+    font: 12px Calibri sans-serif;
+    margin: 18px 0 15px 24px;
+}
+.block_one p{
+    float: right;
+    color: #afafaf;
+    font: 12px Calibri sans-serif;
+    margin: 3px 24px
+}
+.block_one a{
+    color: #9ddf00;
+    text-decoration:underline;
+}
+.block_one a:hover{
+    color: #fff;
+}
+.block_second img{
+    float: left;
+    clear: left;
+    margin: 0 0 10px 20px;
+}
+.block_third{
+    width: 55%;
+    float: right;
+    clear: right;
+}
+.block_third h2{
+    text-transform: uppercase;
+    color: #fff;
+    font: 18 Calibri sans-serif;
+    margin:5px 0 5px 18px;
+}
+.block_third h3 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #9ddf00;
+    margin-left: 18px;
+}
+.block_third h3 a:hover{
+    color: #fff;
+}
+.block_third p{
+    color: #fff;
+    font: 14px Calibri sans-serif;
+    margin-left: 18px;
+}
+.block_third input{
+    background-image: linear-gradient(#474748, #171717);
+    border: none;
+    border-top: 1px solid #a8a8a8;
+    text-transform: uppercase;
+    font: 13px;
+    margin: 5px 0 0 18px;
+}
+.star_block{
+    clear: left;
+    width: 44%;
+    float:left;
+}
+/*----------rating stars*/
+.rating{
+    width: 92px;
+    height: 18px;
+    list-style: none;
+    background-image: url(img/star.png);
+    position: relative;
+    margin: 0 auto;
+}
+.rating li.active{
+    z-index: 1;
+    background: url(img/star.png) left bottom;
+}
+.rating li{
+    float: left;
+    height: 18px;
+}
+.rating li span[class*="stars"] {
+    margin: 0;
+    position: absolute;
+    z-index: 3;
+    width: 18px;
+    height: 14px;
+    cursor: pointer;
+}
+.rating li span[class*="stars"]:hover{
+    left:0;
+    z-index: 2;
+    background: url(img/star.png) left bottom;
+    padding-top: 4px;
+}
+.rating li span.stars1{
+    left: 0;
+}
+.rating li span.stars1:hover{
+    width: 18px;
+}
+.rating li span.stars2{
+    left: 18px;
+}
+.rating li span.stars2:hover{
+    width: 36px;
+}
+.rating li span.stars3{
+    left: 36px;
+}
+.rating li span.stars3:hover{
+    width: 54px;
+}
+.rating li span.stars4{
+    left: 54px;
+}
+.rating li span.stars4:hover{
+    width: 72px;
+}
+.rating li span.stars5{
+    left: 72px;
+}
+.rating li span.stars5:hover{
+    width: 90px;
+}
+
+/*----------------------*/
+.coments{
+    width: 52%;
+    float: right;
+    clear: right;
+    color: #9a9a9a;
+    text-align: left;
+    font: 12px Calibri sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.pages{
+    text-align: center;
+}
+.pages a{
+    color: #9ddf00;
+    font: 14 Calibri bold;
+    text-decoration: underline;
+    padding: 10px;
+}
+.pages a:hover{
+    text-decoration: none;
+    color: #585858;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+/*----------------------end------*/
+.sidebar{
+    clear: right;
+    float: right;
+    width: 27%;
+    height: auto;
+}
+.sidebar_block{
+    clear: both;
+    float: right;
+    background-color: #252526;
+    height: auto;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    width: auto;
+}
+.sidebar_block li{
+    font: 14 Calibri bold;
+    text-transform: uppercase;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.sidebar_block a{
+    color: #9ddf00;
+    font: 14 Calibri bold;
+    border-bottom: 2px dotted #81b503;
+}
+.sidebar_block_second{
+    padding: 15px; 
+}
+.sidebar_block_second img{
+    float: left;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.sidebar_block_second p{
+    color: #afafaf;
+    font: 13px Calibri sans-serif;
+}
+.block_ad div{
+   margin: 15px 0 15px 18px; 
+}
+.block_ad a{
+    border-bottom: none;
+    text-decoration: underline;
+}
+.block_ad p{
+    color: #afafaf;
+    margin-top: 10px;
+}
+.yandex a{
+    text-decoration: none;
+    color: #fff;
+    font: 14px Calibri bold;
+    display: inline-block;
+}
+.yandex a:first-letter{
+    color: #e83126;
+}
+.social{
+    padding: 15px;
+}
+.tegys {
+    padding: 25px;
+}
+.tegys a:hover{
+    font: 20px Calibri bold;
+    color: #b3ff00;
+    text-decoration: underline;
+}
+.teg1 a{
+    font: 20px Calibri bold;
+    color:#fff;
+    border-bottom: none;
+    margin: 5px;
+}
+.teg2 a{
+     font: 14px Calibri bold;
+     color:#fff;
+     border-bottom: none;
+     margin: 10px;
+}
+.teg3 a{
+     font: 18px Calibri bold;
+     color:#fff;
+     border-bottom: none;
+     margin: 15px;
+}
+.teg4 a{
+     font: 26px Calibri bold;
+     color:#fff;
+     border-bottom: none;
+     margin: 15px;
+}
+.teg5 a{
+     font: 8px Calibri bold;
+     color:#fff;
+     border-bottom: none;
+     margin:;
+}
+/*----------foooter----*/
+.line_style{
+    width: 97%;
+}
+.footer nav{
+    float: left;
+    height: auto;
+}
+.logo2{
+    clear: right;
+    float: right;
+}
+.logo2 div{
+    margin: 10px;
+}
+.copy{
+    color: #9a9a9a;
+    font: 12px Calibri sans-serif;
+    float: right;
+    margin-bottom: 30px;
+}
+
+
+
+
+
